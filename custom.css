@@ -326,6 +326,7 @@ a:hover {
 .panel-full .text {
   width: 80%;
   text-align: center;
+  margin: auto;
 }
 
 .panel-full .subtext {

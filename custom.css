@@ -1,3 +1,7 @@
+@font-face {
+font-family: "Karla";
+src: url("css/fonts/Karla-Regular.ttf");
+}
 
 body {
     opacity: 1;
@@ -46,6 +50,8 @@ a:hover {
   color: lightgrey;
   padding: 10px 50px 10px 50px;
   border: solid lightgrey 2px;
+
+  font-size: 2vw;
 }
 
 .custom-btn:hover {
@@ -58,7 +64,6 @@ a:hover {
   color: gold;
   padding-bottom: 10%;
 }
-
 
 
 
@@ -221,10 +226,12 @@ a:hover {
 
 
 .project {
-  position: relative;
+  position: relative; /* relative to project grid parent */
   margin-bottom: 15px;
   text-align: center;
-  max-width: 49%;
+  width: 49%;
+  max-width: 100%;
+  min-width: 500px;
 }
 
 .project img {
@@ -316,7 +323,7 @@ a:hover {
 }
 
 .panel-full img {
-  max-width: 100%;
+  width: 100%; /*relative to parent panel div */
 }
 
 .panel-full .img-gap {
@@ -333,6 +340,15 @@ a:hover {
   margin-top: 3%;
   font-size: 18px;
 }
+
+#rattle, #maze, #resource-poster {
+  width: 50%;
+}
+
+#powermap {
+  width: 80%;
+}
+
 /* ---------------- FOOTER ---------------- */
 
 .footer .social-icons {

@@ -296,6 +296,9 @@ a:hover {
   background-color: #F9DA48;
 }
 
+#project-wiux .overlay-caption {
+  background-color: #4B4B4B;
+}
 
 #project-pc .overlay-caption {
   background-color: #81CCB8;

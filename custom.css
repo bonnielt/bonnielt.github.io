@@ -357,6 +357,27 @@ a:hover {
   width: 80%;
 }
 
+.other-projects-panel {
+  font-size: 24px;
+  text-align: center;
+}
+
+.other-projects-panel a {
+  color: lightgrey;
+}
+
+.other-projects-panel .current-project {
+  color: black;
+}
+
+.other-projects-panel a:hover {
+  color: gold;
+}
+
+.other-projects-spacer {
+  margin: 20px;
+}
+
 /* ---------------- FOOTER ---------------- */
 
 .footer .social-icons {

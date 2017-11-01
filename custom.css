@@ -236,7 +236,7 @@ a:hover {
   text-align: center;
   width: 49%;
   max-width: 100%;
-  min-width: 500px;
+  min-width: 350px;
 }
 
 .project img {
@@ -267,12 +267,15 @@ a:hover {
 }
 
 .overlay-caption .text .title {
-  font-size: 3em;
+  /*font-size: 3em;*/
+  font-size: calc(18px + 2.5vw);
   font-weight: bolder;
 }
 
 .overlay-caption .text .subtitle {
-  font-size: .75em;
+  /*font-size: .75em;*/
+  font-size: calc(12px + .2vw);
+;
 }
 
 .project:hover .overlay-caption {

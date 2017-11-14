@@ -398,16 +398,13 @@ a:hover {
   color: lightgrey;
   text-align: right;
   margin-right: 5%;
-  margin-left: 10%;
 }
 
 .right-column {
   float: right;
-  width: 60%;
+  width: 80%;
   min-width: 500px;
   font-size: 18px;
-  padding-top: 10px;
-  margin: auto;
 }
 
 

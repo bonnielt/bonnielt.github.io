@@ -283,6 +283,9 @@ a:hover {
   /*transform: scale(1.5);*/
 }
 
+#project-mm .overlay-caption {
+  background-color: #9AD6C6;
+}
 #project-rc .overlay-caption {
   background-color: #F9DA48;
 }
@@ -292,8 +295,8 @@ a:hover {
 #project-vp .overlay-caption {
   background-color: #ff9b8c;
 }
-#project-mh .overlay-caption {
-  background-color: #81CCB8;
+#project-vb .overlay-caption {
+  background-color: #AAD1D8;
 }
 #project-mdrg .overlay-caption {
   background-color: #F9DA48;

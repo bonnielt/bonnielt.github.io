@@ -17,6 +17,17 @@ body.fade-out {
 }
 /* ---------------- GENERAL ---------------- */
 
+
+.watercolor-grid {
+  position: relative;
+}
+.watercolor-grid img {
+    max-width:450px;
+    max-height:100vh;
+    width: auto;
+    height: auto;
+}
+
 body {
   background-color: white;
   color: black;
@@ -63,6 +74,7 @@ a:hover {
   text-align: center;
   color: gold;
   padding-bottom: 10%;
+
 }
 
 
@@ -323,7 +335,13 @@ a:hover {
   margin-top: 30%;
 }
 
+#project-wc .overlay-caption {
+  background-color: #ffafaf;
+}
 
+#project-wc .overlay-caption .text{
+  margin-top: 30%;
+}
 /* ---------------- PROJECT PAGE ---------------- */
 
 .project-page {

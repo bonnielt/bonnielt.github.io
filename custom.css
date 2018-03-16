@@ -373,7 +373,38 @@ a:hover {
   font-size: 18px;
 }
 
-#rattle, #maze, #resource-poster {
+.expanded {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1100px;
+
+}
+
+.expanded .heading {
+  display: inline-block;
+  color: lightgrey;
+  margin-right: 5%;
+  width: 25%;
+
+}
+
+
+.expanded .description {
+  display: inline-block;
+  font-size: 14pt;
+  width: 60%;
+  min-width: 300px;
+  line-height: 180%;
+  text-align: left;
+}
+
+
+
+#rattle, #maze, #resource-poster, #dispenser {
   width: 50%;
 }
 
@@ -451,6 +482,22 @@ a:hover {
 
 /* ---------------- ABOUT ME SECTION ---------------- */
 
+.about-me-panel {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: left;
+  justify-content: space-around;
+}
+
+.profile-pic {
+  display: inline-block;
+  max-width: 400px;
+  align-self: flex-end;
+
+
+}
+
 .resume {
   width: 80%;
   margin: auto;
@@ -468,13 +515,15 @@ a:hover {
 
 
 #profile-pic {
-  margin-top: -100px;
-  width: 25%;
+  min-width: 300px;
 }
 
 
 .intro {
-  padding-top: 10%;
+  margin-top: 10%;
+  font-size: calc(14pt + 2vw);
+  display: inline-block;
+
 }
 .intro span {
   color: gold;

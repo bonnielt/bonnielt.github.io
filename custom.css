@@ -318,6 +318,10 @@ a:hover {
   background-color: #4B4B4B;
 }
 
+#project-sha .overlay-caption {
+  background-color: #6EB33E;
+}
+
 #project-pc .overlay-caption {
   background-color: #81CCB8;
 }
@@ -404,6 +408,9 @@ a:hover {
 
 
 
+#chi-logo {
+  max-width: 250px;
+}
 #rattle, #maze, #resource-poster, #dispenser {
   width: 50%;
 }

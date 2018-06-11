@@ -345,6 +345,10 @@ a:hover {
 #project-wc .overlay-caption .text{
   margin-top: 30%;
 }
+
+#project-acrs .overlay-caption {
+  background-color: #672222;
+}
 /* ---------------- PROJECT PAGE ---------------- */
 
 .project-page {
@@ -410,10 +414,15 @@ a:hover {
 #chi-logo {
   max-width: 250px;
 }
+#chi-photo {
+  max-width: 400px;
+}
 #rattle, #maze, #resource-poster, #dispenser {
   width: 50%;
 }
-
+#uh-oh {
+  color: white;
+}
 #powermap {
   width: 80%;
 }

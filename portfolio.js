@@ -12,10 +12,6 @@
       closeNav();
     };
 
-    document.getElementById("pizzaTrigger").onclick = function() {
-      document.body.style.backgroundColor="black";
-    }
-
     $(document).ready(function() {
 
       /* Every time the window is scrolled ... */
@@ -39,6 +35,9 @@
         });
 
       });
+      document.getElementById("pizzaTrigger").onclick = function() {
+        document.body.style.backgroundColor="black";
+      };
 
     });
 

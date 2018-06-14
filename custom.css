@@ -307,14 +307,14 @@ a:hover {
   background-color: #ff9b8c;
 }
 #project-vb .overlay-caption {
-  background-color: #AAD1D8;
+  background-color: #82798A;
 }
 #project-mdrg .overlay-caption {
   background-color: #F9DA48;
 }
 
 #project-wiux .overlay-caption {
-  background-color: #4B4B4B;
+  background-color: #364556;
 }
 
 #project-sha .overlay-caption {
@@ -497,6 +497,35 @@ a:hover {
 
 /* ---------------- ABOUT ME SECTION ---------------- */
 
+#about-me-books .text{
+  color: lightgrey;
+}
+
+.books {
+  max-width: 230px;
+  align-self: center;
+  box-shadow: 15px 15px;
+  color: #7e993c;
+  transition: 0.3s; /* Transition effects on hover (color) */
+
+}
+
+.books:hover {
+  color: gold;
+
+}
+
+.books-div {
+  padding-top: 5%;
+  display: flex;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
 .about-me-panel {
   display: flex;
   flex-direction: row;
@@ -509,8 +538,10 @@ a:hover {
   display: inline-block;
   max-width: 400px;
   align-self: flex-end;
+}
 
-
+.profile-pic img {
+  border-radius: 500px;
 }
 
 .resume {
